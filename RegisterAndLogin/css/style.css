@@ -1,0 +1,91 @@
+@import url("reset.css");
+#main {
+    height: 100%;
+}
+#second {
+    height: 100%;
+    background-color: #636363;
+}
+#third {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    position: relative;
+    top: 110px;
+    right: 60px;
+    border: 3px solid white;
+    color: #ffffff;
+    height: 50px;
+    width: 200px;
+    background-color: #636363;
+}
+.inline {
+    display:inline;
+    float: left;
+}
+form {
+    outline-offset: 3px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 3px solid black;
+}
+.login {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+p, input, span {
+    padding: 5px;
+    color: white;
+}
+
+.btn {
+    padding: 5px;
+    margin-top: 10px;
+    width: fit-content;
+    color: #ffffff;
+    background-color: #8e8e8e;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px #333
+}
+.btn:hover {
+    background-color: #7c7c7c;
+}
+.btn:active {
+    background-color: #696967;
+    border-radius: 3px;
+    box-shadow: inset 1px 1px 2px #333;
+}
+
+.left-div{
+    height: 210px;
+    width: 75%;
+    background-color: #636363;
+}
+
+.right-div {
+    height: 210px;
+    width: 25%;
+    background-color: #636363;
+}
+.hide {
+    display: none;
+}
+.floating {
+    position: center;
+}
+input{
+    color: black;
+}
+.close {
+    /*display: inline;*/
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10px;
+    position: relative;
+    bottom: 250px;
+    left: 500px;
+}
