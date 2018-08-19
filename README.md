@@ -1,2 +1,2 @@
 # javascript-login-form
-Login form with register option
+Login form with register option made via JavaScript
